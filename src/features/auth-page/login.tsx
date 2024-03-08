@@ -24,7 +24,7 @@ export const LogIn: FC<LoginProps> = (props) => {
           <Avatar className="h-8 w-8">
             <AvatarImage src={"ai-icon.png"} />
           </Avatar>
-          <span className="text-primary">{AI_NAME}</span>
+          <span className="text-primary">Archuleta Law Firm</span>
         </CardTitle>
         <CardDescription>
           Sign in with your Google or Microsoft account
@@ -32,7 +32,7 @@ export const LogIn: FC<LoginProps> = (props) => {
       </CardHeader>
       <CardContent className="grid gap-4">
         {/* <Button onClick={() => signIn("github")}>GitHub</Button> */}
-        <Button onClick={() => signIn("azure-ad")}> Microsoft 365</Button>
+        <Button onClick={() => signIn("azure-ad")}> Microsoft </Button>
         <Button onClick={() => signIn("google")}> Google </Button>
         {props.isDevMode ? (
           <Button onClick={() => signIn("localdev")}>
