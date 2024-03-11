@@ -24,7 +24,7 @@ export const LogIn: FC<LoginProps> = (props) => {
           <Avatar className="h-8 w-8">
             <AvatarImage src={"ai-icon.png"} />
           </Avatar>
-          <span className="text-primary">Archuleta Law Firm</span>
+          <span className="text-primary">ALF Legal Assistant AI</span>
         </CardTitle>
         <CardDescription>
           Sign in with your Google or Microsoft account
